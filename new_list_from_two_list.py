@@ -10,16 +10,18 @@ def merge_list(list1, list2):
     
     # iterate first list
     for num in list1:
+        #Verify whether the present value is odd.
         if num % 2 != 0:
             result_list.append(num)
 
     # iterate second list
     for num in list2:
+        # Verify whether the present value is even.
         if num % 2 == 0:
             result_list.append(num)
     return result_list
 
-list1 = [5, 10, 35, 50, 60]
-list2 = [20, 55, 40, 55, 110]
+list1 = [5, 10, 35, 50, 63, 71]
+list2 = [20, 55, 40, 80, 92, 110]
 print("result list:", merge_list(list1, list2))
 
