@@ -12,10 +12,6 @@ def merge_list(list1, list2):
     for num in list1:
         if num % 2 != 0:
             result_list.append(num)
-    
-    # iterate second list
-    for num in list2:
-        if num % 2 == 0:
-            result_list.append(num)
+
 
 
