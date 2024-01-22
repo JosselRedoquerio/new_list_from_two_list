@@ -17,4 +17,9 @@ def merge_list(list1, list2):
     for num in list2:
         if num % 2 == 0:
             result_list.append(num)
+    return result_list
+
+list1 = [5, 10, 35, 50, 60]
+list2 = [20, 55, 40, 55, 110]
+print("result list:", merge_list(list1, list2))
 
